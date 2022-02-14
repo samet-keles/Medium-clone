@@ -1,0 +1,89 @@
+@font-face {
+    font-family:gt-super;
+  
+    src: url(/fonts/Web/GT-Super-Text-Book.woff2);
+}
+
+.bg-yellow {
+    background-color: #FFC017; 
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.active {
+    font-size: 14px;
+}
+
+.btn-nav {
+    background-color: black;
+    border-radius: 99em;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-home {
+    background-color: white;
+    border: 1px solid rgba(41, 41, 41, 1);
+    border-radius: 99em;
+}
+
+.btn-aside {
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 3px;
+    padding: 6px 16px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.btn-footer {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(117, 117, 117, 1);
+    display: inline-block;
+    padding: 0;
+}
+
+.home-img {
+    width: 375px;
+    
+}
+
+.h1-top {
+    font-size: 62px;
+    color: black;
+    font-family: gt-super;
+}
+
+.p-home {
+    font-family: gt-super;
+}
+
+.content-number {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(230, 230, 230, 1);
+    font-family: 'Rowdies', cursive;
+}
+
+.bot-name {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 17px;
+}
+
+#sticky-side {
+        height: 100%;
+        position:-webkit-sticky;
+        position: sticky;
+        top: 100px; /* Stay at the top */
+}
